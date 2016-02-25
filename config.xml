@@ -7,8 +7,8 @@
     <!-- Tool Set Version -->        
     <preference name='phonegap-version' value='cli-5.2.0' />
 
-    <name>pgbp-screenorientation</name>
-    <description>pgbp-screenorientation</description>
+    <name>PGBP ScreenOrientation</name>
+    <description>PGBP Screen Orientation</description>
     <author href="http://bsdmasterindex.com" email="jessemonroy650@yahoo.com">Jesse Monroy</author>
 
     <!-- Target Platforms -->
