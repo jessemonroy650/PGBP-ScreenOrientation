@@ -1,6 +1,3 @@
-/*
-
-*/
 var app = {
     onDeviceReady : function () {
         app.showIt('info', 'deviceready');
@@ -45,7 +42,7 @@ var app = {
             app.showIt('info', 'set to landscape');
         });
         window.addEventListener("orientationchange", function(){
-            app.showIt('content', 'Orientation changed to ' + screen.orientation);
+            app.showIt('content', 'Orientation changed to ' + JSON.stringify(screen.orientation));
         });
     }
 };
